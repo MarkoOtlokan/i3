@@ -169,7 +169,7 @@ bindsym $mod+Shift+m exec amixer set Master mute
 bindsym $mod+Shift+n exec amixer set Master unmute
 
 #start
-exec --no-startup-id i3-msg 'workspace 1;exec terminator'
+exec --no-startup-id i3-msg 'workspace 1;exec tilda'
 exec --no-startup-id i3-msg 'workspace 2; exec firefox'
 exec --no-startup-id i3-msg 'workspace 10;exec hexchat'
 exec feh --bg-scale /home/tloken/Downloads/slike/arch.jpg
